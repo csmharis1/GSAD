@@ -21,7 +21,7 @@ import model as Model
 import core.logger as Logger
 import core.metrics as Metrics
 import random
-
+print ("loaded from local")
 
 def init_dist(backend='nccl', **kwargs):
     """initialization for distributed training"""
